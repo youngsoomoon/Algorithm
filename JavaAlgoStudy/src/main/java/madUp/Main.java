@@ -1,3 +1,5 @@
+package madUp;
+
 public class Main {
     public static int solution(int m, int k, int a, int b, int[] timetable) {
         int time = 0;
@@ -32,7 +34,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        //System.out.println(solution(2, 4, 1, 2, new int[]{1, 2, 3, 4, 5})); // 8
-
+        System.out.println(solution(2, 4, 1, 2, new int[]{1, 2, 3, 4, 5})); // 8
+        System.out.println(solution(2, 2, 1, 2, new int[]{1, 2, 2, 12, 12, 13})); // 10
+        System.out.println(solution(10, 3, 1, 10, new int[]{1, 2, 3, 10, 21, 22, 23})); // 36
     }
 }
